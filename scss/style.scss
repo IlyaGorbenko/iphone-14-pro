@@ -1,0 +1,157 @@
+@import "nullstyle.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+   font-family: 'Inter', sans-serif;
+   max-width: 1920px;
+}
+
+// header
+header{
+   margin: 0 auto;
+}
+.container{
+   background-color: #000000;
+}
+.menu {
+   margin: 0 auto;
+   padding: 17px 0;
+   max-width: 1200px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   // .menu__ul
+   &__ul {
+      display: flex;
+   }
+   &__ul:first-child{
+      padding-left: 0px;
+   }
+   &__ul:last-child{
+      padding-right: 0px;
+   }
+   // .menu__li
+   &__li {
+      padding: 0 10px 0 10px;
+   }
+
+   &__img{
+      padding-right: 70px;
+   }
+   // .menu__a
+   &__a {
+      color: #717171;
+   }
+   &__a:hover{
+      text-decoration: underline;
+   }
+}
+.present {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #F5F5F7;
+   .title1 {
+      margin-top: 57px;
+      margin-bottom: 35px;
+		// .title__h1
+		&__h1 {
+         color: #490E84;
+         font-weight: 700;
+         font-size: 64px;
+		}
+}
+   // .present__image
+   &__image {
+      margin-bottom: 21px;
+   }
+   // .present__img
+   &__img {
+   }
+   // .present__button
+   &__button {
+      transition: all 0.3s ease-in-out;
+      width: 350px;
+      background: #490E84;
+      border: 1px solid #490E84;
+      border-radius: 30px;
+      margin-bottom: 35px;
+      text-align: center;
+   }
+   &__button:hover {
+      background: #ffffff;
+   }
+   // .present__a
+   &__a {
+      display: block;
+      padding: 20px 0;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #ffffff;
+   }
+   &__a:hover,:active {
+      color:#490E84;
+   }
+}
+
+// main
+.whats-new {
+
+   // .whats-new__title2
+   &__title2 {
+   }
+
+   // .whats-new__h2
+   &__h2 {
+   }
+
+   // .whats-new__text
+   &__text {
+   }
+
+   // .whats-new__p
+   &__p {
+   }
+
+   // .whats-new__image
+   &__image {
+   }
+   // .whats-new__img
+   &__img {
+   }
+}
+.bold {
+}
+.сhoose-your-color {
+
+   // .сhoose-your-color__title2
+   &__title2 {
+   }
+   // .сhoose-your-color__h2
+   &__h2 {
+   }
+}
+.item {
+
+   // .item__image
+   &__image {
+   }
+   // .item__img
+   &__img {
+   }
+   // .item__title3
+   &__title3 {
+   }
+   // .item__h2
+   &__h2 {
+   }
+   // .item__subtitle
+   &__subtitle {
+   }
+   // .item__h3
+   &__h3 {
+   }
+}
